@@ -1,0 +1,221 @@
+/*görüntü olarak benzer ama responsive tasarım olmadı*/
+.container {
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#sol {
+    background-color: rgba(76, 160, 243, 0.589);
+    width: 20vw;
+    height: 40vh;
+    position: absolute;
+    left: 0;
+    border-radius: 50%;
+    margin-left: -8vw;
+    overflow: hidden;
+}
+
+#sag {
+    background-color: rgba(13, 129, 245, 0.589);
+    width: 20vw;
+    height: 40vh;
+    position: absolute;
+    right: 0;
+    border-radius: 50%;
+    margin-bottom: -90vh;
+    margin-right: -8vw;
+    overflow: hidden;
+}
+
+#sagg {
+    background-color: rgba(76, 160, 243, 0.589);
+    width: 8vw;
+    height: 16vh;
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+    margin-right: -88vw;
+    margin-top: 1vh;
+}
+
+#soll {
+    background-color: rgba(76, 160, 243, 0.589);
+    width: 5vw;
+    height: 10vh;
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+    margin-left: -50vw;
+    margin-top: 5vh;
+}
+
+.cardheader {
+    background: linear-gradient(239deg, rgba(2, 0, 36, 1) 0%, rgba(54, 146, 162, 1) 0%, rgba(0, 147, 255, 0.9868989832261029) 60%);
+    width: 26vw;
+    height: 30vh;
+    margin-top: 3vh;
+    position: relative;
+}
+
+.arrow a {
+    color: white;
+    text-decoration: none;
+    padding: 1vw;
+    float: left;
+}
+
+.nokta a {
+    color: white;
+    text-decoration: none;
+    padding: 1vw;
+    float: right;
+}
+
+#bir {
+    background-color: rgba(81, 190, 253, 0.192);
+    width: 6vw;
+    height: 12vh;
+    position: absolute;
+    right: 0;
+    border-radius: 50%;
+    margin-top: 2vh;
+}
+
+#iki {
+    background-color: rgb(9, 161, 255);
+    width: 10vw;
+    height: 20vh;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 50%;
+    margin-bottom: 3vh;
+    margin-left: 1vw;
+}
+
+#üc {
+    background-color: rgba(90, 170, 219, 0.726);
+    width: 1vw;
+    height: 2vh;
+    position: absolute;
+    right: 9vw;
+    top: 11vh;
+    border-radius: 50%;
+}
+
+.content {
+    background-color: rgb(246, 246, 246);
+    width: 22vw;
+    height: 30vh;
+    margin-top: -13vh;
+    position: absolute;
+    flex-wrap: nowrap;
+    border-radius: 1vw 1vh;
+}
+
+#board img {
+    width: 6vw;
+    height: 14vh;
+    border-radius: 50%;
+    margin-left: 8vw;
+    margin-top: -12vh;
+}
+
+#foto {
+    color: rgb(77, 223, 174);
+    margin-left: -2vw;
+}
+
+.content-article p {
+    margin-top: -1vh;
+    text-align: center;
+
+}
+
+.content-article p:nth-child(1) {
+    font-size: 18px;
+}
+
+.content-article p:nth-child(2) {
+    margin-top: -2vh;
+}
+
+.content-article p:nth-child(3) {
+    word-spacing: 2vw;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 22px;
+}
+
+#acount {
+    line-height: 46vh;
+    font-size: 14px;
+    margin-left: -12vw;
+    border-radius: 1vw 1vh;
+}
+
+.main {
+    background-color: rgb(254, 254, 254);
+    width: 26vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.cardlist {
+    background-color: rgb(246, 246, 246);
+    width: 22vw;
+    height: 28vh;
+    display: flex;
+    position: absolute;
+    bottom: 7vh;
+    line-height: 6vh;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border-radius: 1vw 1vh;
+}
+
+#ibir {
+    color: rgb(107, 154, 207);
+}
+
+#iiki {
+    color: rgb(119, 189, 146);
+}
+
+#iyi {
+    color: rgb(211, 140, 140);
+}
+
+#idört {
+    color: rgb(228, 193, 39);
+}
+
+.privecy {
+    line-height: 117vh;
+    font-size: 14px;
+    margin-left: -10vw;
+}
+
+.cardfooter {
+    background-color: rgb(246, 246, 246);
+    width: 26vw;
+    height: 10vh;
+    margin-bottom: 2vh;
+}
+
+.cardfooter i {
+    margin-left: 4vw;
+    margin-top: 1vw;
+    cursor: pointer;
+}
